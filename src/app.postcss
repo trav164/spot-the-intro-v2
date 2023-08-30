@@ -1,4 +1,10 @@
 /* Write your global styles here, in PostCSS syntax */
+@import url('https://fonts.googleapis.com/css2?family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap');
 @tailwind base;
 @tailwind components;
-@tailwind utilities
+@tailwind utilities;
+
+html,
+body {
+    @apply font-mono bg-zinc-900 text-zinc-300 lowercase;
+}
