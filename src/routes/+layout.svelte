@@ -16,16 +16,3 @@
 <div class="container mt-8 p-4">
 	<slot />
 </div>
-
-<!-- Footer -->
-<div class="bottom-0 fixed w-full p-4">
-	<div class="container">
-		<span class="font-semibold text-lg">Disclaimer</span>
-		<p class="text-xs">
-			We are not affiliated, associated, authorized, endorsed by, or in any way officially connected
-			with the brands we illustrate, and those listed on our site. All names, marks, emblems and
-			images are registered trademarks of their respective owners. This is a personal project
-			designed to speed up rounds of the board game.
-		</p>
-	</div>
-</div>
