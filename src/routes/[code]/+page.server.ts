@@ -11,7 +11,5 @@ export const load = (async ({ params, fetch }) => {
 
     const result = await data.json();
 
-    if (!result) return {};
-
     return { result };
 }) satisfies PageServerLoad;
