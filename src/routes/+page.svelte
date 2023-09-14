@@ -1,4 +1,10 @@
-<div class="container">
+<script>
+	import Hero from '../components/Hero.svelte';
+</script>
+
+<Hero />
+
+<!-- <div class="container">
 	<div class="w-full flex flex-col gap-6 text-center">
 		<h1 class="md:text-8xl text-5xl font-bold text-center text-rose-500">spot the intro</h1>
 		<strong class="text-xl md:text-4xl italic font-light"> Automated Song Finder </strong>
@@ -17,4 +23,4 @@
 			<a class="px-4 py-2 hover:text-zinc-200 font-semibold" href="/disclaimer">Disclaimer</a>
 		</div>
 	</div>
-</div>
+</div> -->

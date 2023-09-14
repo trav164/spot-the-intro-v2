@@ -2,7 +2,7 @@
 	import '../app.postcss';
 </script>
 
-<div class="bg-zinc-900 py-6 text-zinc-300 p-4">
+<div class="bg-zinc-800 py-6 text-zinc-300 p-4">
 	<nav class="container flex items-center justify-between">
 		<a class="font-bold text-lg text-rose-500" href="/">spot the intro</a>
 
@@ -13,6 +13,7 @@
 	</nav>
 </div>
 
-<div class="container mt-8 p-4">
+<!-- container mt-8 p-4 -->
+<div class="">
 	<slot />
 </div>
