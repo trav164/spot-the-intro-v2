@@ -2,13 +2,13 @@
 	import '../app.postcss';
 </script>
 
-<div class="bg-zinc-800 py-6 text-zinc-300 p-4">
+<div class="md:bg-zinc-800 bg-zinc-900 py-6 text-zinc-300 p-4">
 	<nav class="container flex items-center justify-between">
-		<a class="font-bold text-lg text-rose-500" href="/">spot the intro</a>
+		<a class="font-bold md:text-2xl text-base text-rose-500" href="/">Spot The Intro</a>
 
 		<div class="flex flex-row gap-6 items-center">
-			<a class="hover:text-rose-500" href="/">home</a>
-			<a class="hover:text-rose-500" href="/history">history</a>
+			<a class="hover:text-rose-500" href="/">Home</a>
+			<a class="hover:text-rose-500" href="/history">Hisotry</a>
 		</div>
 	</nav>
 </div>

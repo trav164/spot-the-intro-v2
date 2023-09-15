@@ -2,16 +2,18 @@
 	import Wave from './Wave.svelte';
 </script>
 
-<div class="text-center bg-zinc-800 h-[600px]">
+<div class="text-center bg-zinc-800 h-screen md:h-[600px]">
 	<div class="container pt-24">
 		<div class="flex flex-col gap-6">
-			<h1 class="text-8xl uppercase font-bold">spot the intro</h1>
+			<h1 class="md:text-8xl text-6xl uppercase font-bold text-zinc-500">spot the intro</h1>
 			<h2 class="text-3xl text-rose-500">Automated Song Finder</h2>
 
-			<p>The quickest and easiest way to play your favourite music quiz</p>
+			<p class="text-lg text-zinc-300">
+				The quickest and easiest way to play your favourite music quiz
+			</p>
 
 			<button
-				class="mt-12 lowercase px-6 py-4 bg-rose-500 hover:bg-rose-600 text-zinc-900 font-bold m-auto"
+				class="mt-12 lowercase px-6 py-4 bg-rose-500 hover:bg-rose-600 text-zinc-900 font-bold text-lg italic m-auto"
 				>Start Playing</button
 			>
 		</div>
@@ -20,7 +22,7 @@
 
 <Wave />
 
-<div class="container text-center">
+<div class="text-center my-24 md:m-0">
 	<div class="flex flex-col gap-6 items-center justify-center">
 		<h3 class="text-4xl">How to play</h3>
 
@@ -29,11 +31,11 @@
 			maiores aspernatur nemo! Repellat unde officia quam?
 		</p>
 
-		<div class="flex flex-col items-center justify-center gap-48 mt-24">
-			<div class="flex flex-row items-center justify-center gap-24">
+		<div class="flex flex-col items-center justify-center gap-48 mt-24 container">
+			<div class="flex md:flex-row flex-col items-center justify-center gap-12 md:gap-24">
 				<div class="flex flex-col gap-4">
 					<h4 class="text-2xl">Setup the iOS Macro</h4>
-					<span class="italic">
+					<span class="italic text-sm">
 						Follow the <a
 							class="underline hover:text-rose-500 italic font-semibold"
 							href="https://camo.githubusercontent.com/0cc6fe3c8e158e7dce64fd47fd516462d5ca8a561deb887f71349f171ff8c9cb/68747470733a2f2f692e696d6775722e636f6d2f433169354f53592e6a706729"
@@ -44,18 +46,20 @@
 				<div class="bg-rose-500 w-72 h-72 rounded-full" />
 			</div>
 
-			<div class="flex flex-row items-center justify-center gap-24">
+			<div class="flex flex-col-reverse md:flex-row items-center justify-center gap-12 md:gap-24">
 				<div class="bg-rose-500 w-72 h-72 rounded-full" />
 				<div class="flex flex-col">
 					<h4 class="text-2xl">Scan a game card</h4>
-					<p class="italic">Take your newly created macro and scan the QR code on a game card</p>
+					<p class="italic text-sm">
+						Take your newly created macro and scan the QR code on a game card
+					</p>
 				</div>
 			</div>
 
-			<div class="flex flex-row items-center justify-center gap-24">
+			<div class="flex flex-col md:flex-row items-center justify-center gap-12 md:gap-24">
 				<div class="flex flex-col">
 					<h4 class="text-2xl it">Check out your Spotify link</h4>
-					<p class="italic">We'll manage the rest and find the song for you</p>
+					<p class="italic text-sm">We'll manage the rest and find the song for you</p>
 				</div>
 				<div class="bg-rose-500 w-72 h-72 rounded-full" />
 			</div>

@@ -7,7 +7,7 @@ const config = {
     },
     container: {
       center: true,
-      padding: '',
+      padding: '1rem',
     },
     extend: {}
   },
