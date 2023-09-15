@@ -22,7 +22,7 @@
 
 <div class="container text-center">
 	<div class="flex flex-col gap-6 items-center justify-center">
-		<h3 class="text-3xl">Your title here</h3>
+		<h3 class="text-4xl">How to play</h3>
 
 		<p class="md:w-1/2 w-full">
 			Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus nobis facilis itaque tempora
@@ -30,28 +30,34 @@
 		</p>
 
 		<div class="flex flex-col items-center justify-center gap-48 mt-24">
-			<div class="flex flex-row items-center justify-center gap-6">
-				<div class="flex flex-col">
-					<h4 class="text-2xl">Scan a game card</h4>
-					<p>Lorem ipsum dolor sit amet.</p>
+			<div class="flex flex-row items-center justify-center gap-24">
+				<div class="flex flex-col gap-4">
+					<h4 class="text-2xl">Setup the iOS Macro</h4>
+					<span class="italic">
+						Follow the <a
+							class="underline hover:text-rose-500 italic font-semibold"
+							href="https://camo.githubusercontent.com/0cc6fe3c8e158e7dce64fd47fd516462d5ca8a561deb887f71349f171ff8c9cb/68747470733a2f2f692e696d6775722e636f6d2f433169354f53592e6a706729"
+							>instructions</a
+						> to add the macro to your device
+					</span>
 				</div>
-				<div class="bg-rose-500 w-60 h-60 rounded-full" />
+				<div class="bg-rose-500 w-72 h-72 rounded-full" />
 			</div>
 
-			<div class="flex flex-row items-center justify-center gap-6">
-				<div class="bg-rose-500 w-60 h-60 rounded-full" />
+			<div class="flex flex-row items-center justify-center gap-24">
+				<div class="bg-rose-500 w-72 h-72 rounded-full" />
 				<div class="flex flex-col">
 					<h4 class="text-2xl">Scan a game card</h4>
-					<p>Lorem ipsum dolor sit amet.</p>
+					<p class="italic">Take your newly created macro and scan the QR code on a game card</p>
 				</div>
 			</div>
 
-			<div class="flex flex-row items-center justify-center gap-6">
+			<div class="flex flex-row items-center justify-center gap-24">
 				<div class="flex flex-col">
-					<h4 class="text-2xl">Scan a game card</h4>
-					<p>Lorem ipsum dolor sit amet.</p>
+					<h4 class="text-2xl it">Check out your Spotify link</h4>
+					<p class="italic">We'll manage the rest and find the song for you</p>
 				</div>
-				<div class="bg-rose-500 w-60 h-60 rounded-full" />
+				<div class="bg-rose-500 w-72 h-72 rounded-full" />
 			</div>
 		</div>
 	</div>
@@ -65,10 +71,12 @@
 	/></svg
 >
 
-<div class="p-12 md:1/4 w-full bg-zinc-800 text-center">
+<div class="p-12 md:1/4 w-full bg-zinc-800 text-center pt-24">
 	<h4 class="text-2xl">Disclaimer</h4>
-	<p class="">
-		Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid accusantium, libero quos cumque
-		delectus iste impedit quaerat distinctio illo quo.
+	<p class="container mt-6">
+		We are not affiliated, associated, authorized, endorsed by, or in any way officially connected
+		with the brands we illustrate, and those listed on our site. All names, marks, emblems and
+		images are registered trademarks of their respective owners. This is a personal project designed
+		to speed up rounds of the board game.
 	</p>
 </div>
