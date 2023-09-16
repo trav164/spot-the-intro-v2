@@ -3,7 +3,8 @@
 
 	export let data: PageData;
 
-	$: ({ artist, track, url } = data.result);
+	$: ({ artist, track } = data.res.details);
+	$: ({ spotify, image } = data.res.link);
 </script>
 
-<p>Game code page works with: {artist}</p>
+<p>Game code page works with: {JSON.stringify(image)}</p>
