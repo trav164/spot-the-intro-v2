@@ -2,7 +2,8 @@ import * as cheerio from 'cheerio';
 
 export const scrapeSong = async (gameCode: string) => {
     try {
-        const res = await fetch(`https://spot-the-intro.com/${gameCode.toUpperCase()}`);
+        const url = `https://spot-the-intro.com/${gameCode.toUpperCase()}`
+        const res = await fetch(url);
 
         if (!res.ok) throw Error(await res.text());
 
@@ -18,6 +19,7 @@ export const scrapeSong = async (gameCode: string) => {
                 return {
                     track: removeSpecialCharacters($('#stacks_in_559 > p > span:nth-child(1)').text().trim()),
                     artist: removeSpecialCharacters(selector),
+                    bonusUrl: url,
                 }
             }
         }

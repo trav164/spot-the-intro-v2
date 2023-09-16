@@ -8,7 +8,7 @@
 
 		<div class="flex flex-row gap-6 items-center">
 			<a class="hover:text-rose-500" href="/">Home</a>
-			<a class="hover:text-rose-500" href="/history">History</a>
+			<!-- <a class="hover:text-rose-500" href="/history">History</a> -->
 		</div>
 	</nav>
 </div>
