@@ -5,11 +5,11 @@ export const load = (async ({ params, fetch }) => {
     const data = await fetch('/api/spot-the-intro', {
         method: 'POST',
         body: JSON.stringify({
-            code: 'REM',
+            code: params.code,
         }),
     });
 
-    const result = await data.json();
+    const res = await data.json();
 
-    return { result };
+    return { res };
 }) satisfies PageServerLoad;

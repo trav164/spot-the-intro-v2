@@ -4,4 +4,6 @@
 	export let data: PageData;
 </script>
 
-<p>History works.</p>
+<div class="container text-center mt-6">
+	<p class="text-2xl">Coming soon</p>
+</div>
